@@ -1,1 +1,1 @@
-# PCA_Knowledge_Distillation
+# PCA-Knowledge-Distillation

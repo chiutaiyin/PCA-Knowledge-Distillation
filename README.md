@@ -1,2 +1,2 @@
 # PCA-Based Knowledge Distillation Towards Lightweight and Content-Style Balanced Photorealistic Style Transfer Models
-To be released soon.
+Paper is accepted to CVPR 2022. Code to be released soon.

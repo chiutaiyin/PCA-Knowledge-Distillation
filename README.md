@@ -14,9 +14,9 @@ Specifically, they transfer stronger style effects than [WCT2](https://github.co
 ## Models and files
 We apply our PCA distillation to two backbones: VGG and MobileNet. The corresponding files can be found in the folders ```VGG backbone``` and ```MobileNet backbone```.
 For each backbone, we provide our trained parameters in the folder ```ckpts```, the demo of how to perform style transfer in the file ```demo.ipynb```, 
-the training code in two files ```train_distilled_model.py``` and ```train_eigenbases.py```, and the distilled model structure in ```utils/lightweight_model.py```.
+the training code in two files ```train_eigenbases.py``` and ```train_distilled_model.py```, and the distilled model structure in ```utils/lightweight_model.py```.
 
-Note that ```train_distilled_model.py``` has to be run first to derive the global eignebases and ```train_eigenbases.py``` uses the eigenbases to distill models.
+Note that ```train_eigenbases.py``` has to be run first to derive the global eignebases and ```train_distilled_model.py``` uses the eigenbases to distill models.
 
 
 ## Requirements 

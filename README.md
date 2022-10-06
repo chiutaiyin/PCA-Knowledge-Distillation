@@ -6,7 +6,7 @@ Code for our CVPR 2022 paper
 ## Advantages of our distilled models
 - They achieve a better balance between content preservation and style transferral. 
 Specifically, they transfer stronger style effects than [WCT2](https://github.com/clovaai/WCT2) and preserves better content than [PhotoWCT](https://github.com/NVIDIA/FastPhotoStyle) and [PhotoWCT2](https://github.com/chiutaiyin/PhotoWCT2).
-- They are lightweight. The models distilled from VGG and MobileNet use only 283K and 73K parameters. 73K is only 0.72% of 10.12M, which is the number of parameters in WCT2.
+- They are lightweight. The models distilled from VGG and MobileNet use only 283K and 73K parameters, respectively. 73K is only 0.72% of the number of parameters in WCT2, 10.12M.
 - They run fast. Our VGG-distilled model runs around 10x, 10x, and 5x as fast as WCT2, PhotoWCT, and PhotoWCT2. Our MobileNet-distilled model is about 2x as fast as Our VGG-distilled model.
 - They can support the 8K (7680 x 4320) resolution on a normal commercial GPU.
 - To our best knowledge, this is the first distillation for photorealistic style transfer. The closest work to ours is [CKD](https://github.com/MingSun-Tse/Collaborative-Distillation) for artistic style transfer.

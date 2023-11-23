@@ -1,0 +1,7 @@
+tensorflow==2.15.0
+numpy==1.26.2
+Pillow==10.1.0
+opencv-contrib-python==4.5.4.58
+opencv-python==4.5.4.58
+tqdm==4.66.1
+
